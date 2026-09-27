@@ -1,162 +1,148 @@
-
-
 # 👋 Hi, I'm kyu-choi
 
-### System × Robotics × Web Developer
+### System · Robotics · Web Developer
 
-저수준 시스템부터 로봇 제어, 웹 인터페이스까지  
-직접 구현하며 성장하는 개발자입니다.
-
-
+C/C++ 기반 시스템 프로그래밍부터 ROS 2 로봇 제어, 웹 인터페이스와 서비스까지  
+직접 구현하고 기록하며 하드웨어와 소프트웨어를 연결하는 개발을 공부하고 있습니다.
 
 ---
 
-## 🧑‍💻 About Me
+## About Me
 
-- 🏫 42 Gyeongsan에서 C/C++ 기반 시스템 프로그래밍을 공부하고 있습니다.
-- 🤖 ROS2, TurtleBot3, Physical AI, 로봇 제어 시스템에 관심이 있습니다.
-- 🌐 로봇과 웹을 연결하는 인터페이스 개발을 좋아합니다.
-- 📚 배운 내용을 정리하고, 프로젝트로 직접 구현하는 방식을 선호합니다.
-- 🚀 목표는 하드웨어와 소프트웨어를 연결하는 실용적인 시스템을 만드는 것입니다.
+- 42 Gyeongsan에서 **C/C++ 기반 시스템 프로그래밍**을 학습하고 있습니다.
+- **Linux, Process/Thread, IPC, Network, Docker** 등 시스템 소프트웨어의 기반 기술을 공부하고 있습니다.
+- **ROS 2, TurtleBot3, Nav2, Computer Vision**을 활용한 로봇 소프트웨어 개발 경험을 쌓고 있습니다.
+- 웹을 단순한 화면이 아니라 **실제 시스템을 제어하고 상태를 확인하는 인터페이스**로 활용하는 데 관심이 있습니다.
+- 학습 내용을 코드와 문서로 정리하고, 프로젝트를 통해 직접 검증하는 방식을 선호합니다.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Languages
 
-C
-C++
-Python
-HTML
+`C` `C++` `Python` `JavaScript` `HTML` `CSS`
 
-### Tools & Platforms
+### Systems & Infrastructure
 
-Linux
-Git
-ROS2
-GitHub
+`Linux` `Ubuntu` `Makefile` `Git` `Docker` `NGINX`
+
+### Robotics
+
+`ROS 2` `TurtleBot3` `Nav2` `Gazebo` `OpenCV`
+
+### Web & Backend
+
+`FastAPI` `Supabase`
 
 ---
 
-## 📌 Main Interests
+## Featured Projects
+
+### [Physical AI Project](https://github.com/kyu-choi/Physical-Ai_project)
+
+ROS 2 기반으로 **실제 TurtleBot3와 Gazebo/Nav2 시뮬레이션을 하나의 웹 인터페이스로 연결한 프로젝트**입니다.
+
+- 실제 TurtleBot3 수동 제어 및 게임형 미션 구현
+- Gazebo + Nav2 기반 자율주행 모드 구현
+- FastAPI 기반 Web Launcher와 ROS 2 topic/service 연동
+- TF 기반 이동 거리, recovery 횟수 등 navigation benchmark 기록
+- 동일한 조건에서 Nav2 설정별 주행 결과 비교
+
+**Tech:** `Python` `ROS 2` `TurtleBot3` `Nav2` `Gazebo` `FastAPI`
+
+---
+
+### [42 Projects](https://github.com/kyu-choi/42-projects)
+
+42 Gyeongsan 과정에서 수행한 **C/C++ 기반 시스템 프로그래밍 프로젝트 모음**입니다.
+
+주요 프로젝트:
+
+- `Libft` — C 표준 라이브러리 함수 재구현
+- `ft_printf` — variadic arguments와 format parsing
+- `get_next_line` — file descriptor와 buffer management
+- `push_swap` — stack 기반 정렬 알고리즘 최적화
+- `minitalk` — UNIX signal 기반 IPC
+- `Philosophers` — thread / mutex / concurrency
+- `minishell` — process, pipe, redirection, parsing
+- `miniRT` — ray tracing과 vector mathematics
+- `Cpp-Module` — C++ OOP, inheritance, polymorphism
+- `Born2beroot` — Linux system administration
+- `NetPractice` — IP, subnetting, routing
+
+**Tech:** `C` `C++` `Linux` `Makefile` `pthread` `Unix` `Network`
+
+---
+
+### [Youth Campus](https://github.com/kyu-choi/youth_campus)
+
+정적 랜딩 페이지에서 시작해 **Supabase 기반 데이터 처리와 관리자 기능을 연결할 수 있도록 구조화한 웹 프로젝트**입니다.
+
+- 모바일 우선 랜딩 페이지
+- JavaScript 모듈 구조 분리
+- Supabase 연동 구조
+- 신청자 조회 및 상태/메모 관리
+- 관리자용 매칭 기능
+
+**Tech:** `HTML` `CSS` `JavaScript` `Supabase`
+
+---
+
+### [Inception](https://github.com/kyu-choi/inception) — In Progress
+
+42 Inception 과제를 통해 **Docker 기반 서비스 인프라와 Linux container 구조**를 학습하고 있습니다.
+
+현재 학습 및 구현 범위:
+
+- Docker Image / Container / Volume / Network
+- Linux Namespace / cgroup
+- NGINX + TLS / HTTPS
+- WordPress + PHP-FPM
+- MariaDB
+- FastCGI
+- Docker Compose 기반 multi-container architecture
+
+**Tech:** `Docker` `Linux` `NGINX` `MariaDB` `WordPress`
+
+---
+
+## Learning Archive
+
+### [Physical-Ai](https://github.com/kyu-choi/Physical-Ai)
+
+로봇 소프트웨어 개발에 필요한 내용을 실습 중심으로 정리한 학습 저장소입니다.
+
+`Python` · `NumPy` · `Thread / Process` · `OpenCV` · `YOLO` · `SLAM` · `AMCL` · `Dijkstra` · `A*` · `RRT / RRT*`
+
+---
+
+## Current Focus
 
 ```text
-System Programming
-Robotics
-Physical AI
-ROS2
-Embedded Systems
-Web Interface
-C / C++
+C / C++ System Programming
+        ↓
+Linux / Network / Docker
+        ↓
+Robotics & Embedded Systems
+        ↓
+ROS 2 / Real-world Control
+        ↓
+Web Interface & Service
 ```
 
----
-
-## 🚀 Projects
-
-### 42 Projects
-
-C언어와 Unix 기반 환경에서 시스템 프로그래밍의 기초를 학습하고 구현한 프로젝트입니다.
-
-- `push_swap`  
-제한된 명령어로 스택을 정렬하는 알고리즘 프로젝트
-- `so_long`  
-2D 게임 구현 및 맵 검증 프로젝트
-- `minitalk`  
-Unix signal을 이용한 프로세스 간 통신 프로젝트
-- `philosophers`  
-thread와 mutex를 활용한 동시성 문제 해결 프로젝트
-- `ft_printf` / `get_next_line`  
-C 표준 함수의 동작을 직접 구현하며 입출력과 메모리 관리를 학습
+저수준 동작을 이해하는 것에서 시작해,  
+실제 장치와 서비스까지 연결할 수 있는 개발자를 목표로 하고 있습니다.
 
 ---
 
-### Physical AI / Robotics
+## GitHub
 
-ROS2와 로봇 시뮬레이션 환경을 기반으로  
-로봇의 이동, 센서 데이터 처리, 웹 제어 시스템을 실험하고 있습니다.
-
-관심 있는 구현 방향:
-
-- TurtleBot3 제어
-- LiDAR 기반 장애물 감지
-- ROS2 topic / service 구조
-- Navigation2
-- Web-based robot control
-- Manual / Auto mode switching
+- Profile: [github.com/kyu-choi](https://github.com/kyu-choi)
+- 42 Projects: [github.com/kyu-choi/42-projects](https://github.com/kyu-choi/42-projects)
+- Physical AI Project: [github.com/kyu-choi/Physical-Ai_project](https://github.com/kyu-choi/Physical-Ai_project)
+- Youth Campus: [github.com/kyu-choi/youth_campus](https://github.com/kyu-choi/youth_campus)
 
 ---
-
-### Web Interface
-
-단순한 웹 페이지를 넘어,  
-실제 시스템과 연결되는 인터페이스를 만드는 데 관심이 있습니다.
-
-예시:
-
-- 로봇 제어용 웹 UI
-- 상태 모니터링 페이지
-- 프로젝트 소개 페이지
-- 사용자 입력 기반 시스템 제어
-
----
-
-## 📚 Learning Log
-
-공부한 내용을 단순히 끝내지 않고,  
-나중에 다시 볼 수 있도록 정리하는 것을 중요하게 생각합니다.
-
-현재 정리 중인 주제:
-
-- C / C++
-- 자료구조와 알고리즘
-- 운영체제 기초
-- 네트워크와 HTTP
-- ROS2
-- 로봇 제어
-- 웹 개발 기초
-
----
-
-## 📊 GitHub Stats
-
-
-
-GitHub stats
-
-Top Langs
-
-
-
----
-
-## 🧭 Direction
-
-저는 단순히 코드를 작성하는 것을 넘어서,  
-실제로 움직이고 연결되는 시스템을 만드는 개발자가 되고 싶습니다.
-
-```text
-Low-level Logic
-      ↓
-System Programming
-      ↓
-Robotics / Embedded
-      ↓
-Web Interface
-      ↓
-Real-world Service
-```
-
----
-
-## 📫 Contact
-
-- GitHub: [@kyu-choi](https://github.com/kyu-choi)
-
----
-
-
 
 ### 꾸준히 만들고, 기록하고, 개선합니다.
-
